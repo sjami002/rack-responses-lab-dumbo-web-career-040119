@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     
     curr_time = Time.now
-    if 
+    if curr_time.hour >= 12
     
     resp.finish
   end
